@@ -1,0 +1,89 @@
+// Unbound Classes
+
+.standout {
+    color: red;
+}
+
+.date-style {
+    text-align: right;
+}
+
+.typewriter {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.emphatic {
+    font-style: italic;
+}
+
+.enclosed {
+    border-top: 1px ridge #0000ff;
+    border-right: 2px dotted #6666ff;
+    border-bottom: 1px ridge pink;
+    border-left: 2px groove green;
+    padding-right: -3em;
+}
+
+// Headings
+
+h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    letter-spacing: 0;
+    word-spacing: 1em;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3.bigger {
+    font-size: 2.5em;
+}
+
+// Paragraphs
+
+p {
+    text-indent: 1em;
+    font-family:  Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+p.boxed {
+    border: 5px solid red;
+}
+
+p.important {
+    font-size: 1.5em;
+    font-weight: 900;
+    
+}
+
+p.jackpar {
+    letter-spacing: .2em;
+    word-spacing: .5em;
+    line-height: 1.8em;
+}
+
+p.justified {
+    text-align: justify;
+}
+
+p.offset {
+    margin: 0 2em 0 1.75em;
+}
+
+p.allmargin {
+    margin: 2em;
+}
+
+// Other
+blockquote {
+    font-size: .75em;
+    color: gray;
+}
